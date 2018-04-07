@@ -16,6 +16,7 @@ pipeline {
         stage('READ') {
             steps {
                 sh 'cat build_number'
+                sh 'cat build_number'
             }
         }
     }
